@@ -1,0 +1,189 @@
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.dinbu{
+    width:1130px;
+    height: 98px;
+    margin: 0 auto;
+}
+.din{
+    width: 200px;
+    height: 100%;
+    position: relative;
+}
+.din img{
+    margin-top: 11%;
+}
+.di{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.di img{
+    width: 120px;
+    height: 60px;
+}
+.zj img{
+    width: 100%;
+    height: 600px;
+}
+.denglu{
+    width: 410px;
+    height: 524.66px;
+    position: absolute;
+    top: 130px;
+    right: 50px;
+}
+.den{
+    width: 410px;
+    height: 82.33px;
+    background-color: rgb(255, 255, 255);
+}
+.den1{
+    margin-left: 90px;
+    font-size: 26px;
+    position: absolute;
+    top:18px;
+}
+.den1 a{
+    color: #5a5959;
+}
+.den1 a:hover{
+    color: rgb(248, 83, 23);
+}
+.den1 span{
+    color: #a39d9d;
+}
+.den2{
+    width: 410px;
+    height: 486.33px;
+    background-color: rgb(255, 255, 255);
+}
+.den2 .i1{
+    width: 348px;
+    height: 50px;
+    margin: 0 auto;
+}
+.den2 .i1 input{
+    width: 346px;
+    height: 48px;
+}
+.den2 .i2{
+    width: 348px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 14px;
+}
+.den2 .i2 input{
+    width: 346px;
+    height: 48px;
+}
+.yzm{
+    width: 410px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+.yzm .y{
+    width: 348px;
+    height: 40px;
+}
+.dt{
+    position: absolute;
+    top: 280px;
+    left: 33px;
+}
+.dt .btn{
+    width: 348px;
+    height: 50px;
+    background-color: rgb(248, 83, 23);
+    color: rgb(250, 249, 249);
+    border: 0px;
+}
+.dt .btn:hover{
+    cursor: pointer;
+}
+.other{
+    width: 348px;
+    height: 18px;
+    position: absolute;
+    top: 335px;
+    left: 33px;
+}
+.other .sms a{
+    font-size: 12px;
+    color: rgb(248,82,23);
+    position: absolute;
+    left: 126px;
+}
+.zc{
+    width: 348px;
+    height: 18px;
+    font-size: 14px;
+    position: absolute;
+    top: 326px;
+    left: 33px;
+}
+.zc .lz{
+    color: #999999;
+    position: absolute;
+    top: 30px;
+    left: 112px;
+}
+.zc span{
+    color: #999999;
+    position: absolute;
+    left: 172px;
+    top: 30px;
+}
+.zc .wj{
+    color: #999999;
+    position: absolute;
+    left: 180px;
+    top: 30px;
+}
+.zc a:hover{
+    color: rgb(248,82,23);
+}
+.qt img{
+    width: 75%;
+    height: 55%;
+}
+.qt{
+    position: absolute;
+    top: 98%;
+    left: 80px;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
+.nf{
+    width: 100%;
+    height: 18px;
+    font-size: 14px;
+    color: #333;
+}
+.nf ul li{
+    float: left;
+    margin-left: 10px;
+}
+.nf ul{
+    position: absolute;
+    left: 38%;
+}
+.ng{
+    font-size: 14px;
+    color: #333;
+    margin-left: 410px;
+}
+.ng a{
+    color: #333;
+}

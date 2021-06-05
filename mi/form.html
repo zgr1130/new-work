@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #img{
+            position: absolute;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="login.php" method="POST" class="myform">
+        <input type="text" placeholder="请输入账号" class="user" name="user"><br>
+        <input type="password" placeholder="密码" class="pass" name="pass"><br>
+        <input type="text" placeholder="请输入验证码" class="yzm">
+        <img src="chek.php" alt="" id="img">
+        <a href="#" onclick="document.querySelector('#img').src='chek.php?'+Math.random()">看不清，点我换一张</a><br>
+        <input type="button" value="登录" onclick="check()">
+    </form>
+</body>
+</html>
+<script>
+"use strict";
+    function check(){
+        let user=document.querySelector(".user").value;
+        let pass=document.querySelector(".pass").value;
+        if(user!=="" && pass!=="" && user.length>=5 && user.length<13 && user.indexOf(".")<0 &&
+        escape(user).indexOf("%u")==-1){
+            if(pass.length>5 && pass.length<16 && escape(pass).indexOf("%u")==-1){
+                document.querySelector(".myform").submit();
+
+            }else{
+                alert("密码错误，请重新输入！")
+                history.go(0);
+            }
+        }else{
+            alert("账号含有非法字符！");
+            history.go(0);
+        }
+    }
+</script>

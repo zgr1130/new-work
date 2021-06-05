@@ -1,0 +1,451 @@
+.gg{
+    width: 100%;
+    height: 130px;
+    position: relative;
+    display: none;
+}
+.gg img{
+    width: 100%;
+    height: 100%;
+}
+.gg a{
+    color: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.fa{
+    width: 234px;
+    height: 460px;
+    background-color: dimgray;   
+    position: absolute;
+}
+.box{
+    width: 992px;
+    height: 460px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 0;
+    left: 234px;
+}
+.ff{
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px; 
+}
+.ff .di div{
+    width: 992px;
+    height: 460px;
+    background-color: rgb(238, 240, 150);
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    left: 234px;
+    display: none;
+
+}
+.active{
+    background: red;
+}
+.ff .di .act{
+    display: block;
+}
+.fb{
+    width: 234px;
+    height: 460px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(105, 101, 101, 0.6);
+}
+.fb #first{
+    margin-top: 30px;
+}
+.fb li{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.fb li:hover{
+    background-color: #ff6700;
+}
+.title{
+    margin-left: 30px;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+
+.ee{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #e0e0e0;
+}
+.code{
+    height: 40px;
+    background-color: #333333;
+}
+.dh,.gj{
+    line-height: 40px;
+    color: #b0b0b0;
+    font-size: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.d1{
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+}
+.d1 a:hover{
+    color: #fff;
+}
+.d2{
+    width: 794px;
+    height: 40px;
+    float: left;
+}
+span{
+    color: #424242;
+}
+*{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.d3{
+    position: relative;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 14px;
+}
+.d4{
+    width: 120px;
+    height: 40px;
+    float: right;
+    position: relative;
+    line-height: 40px;
+    color: #b0b0b0;
+    font-size: 10px;
+    text-align: center;
+    background-color: #424242;
+}
+.d4 span{
+    color: #b0b0b0;
+}
+
+.h2{
+    width: 80px;
+    height: 80px;
+   
+}
+.header{
+    position: relative;
+    height: 100px;
+}
+.h1{
+    width: 1226px;
+    margin: auto;
+    height: 100px;
+}
+.h2{
+    float: left;
+    width: 70px;
+    height: 100px;
+    position: absolute;
+
+}
+.h2 a img{ 
+    margin-top: 22.5px;
+}
+.h3{
+    width: 850px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    float: left;
+
+}
+.h3 ul{
+    display: inline-block;
+    height: 100px;
+    margin-left: 130px;
+}
+.h3 ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin-left: 15px;
+}
+.h3 ul li a{
+    color: #000000;
+}
+.h3 ul li a:hover{
+    color: #ff6700;
+}
+.h4{
+    width: 230px;
+    height: 250px;
+    float: left;
+    z-index: 9999;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+.h4 input{
+    width: 200px;
+    height: 35px;
+}
+.h4 ul{
+    width: 202px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    display: none;
+}
+.h4 ul li:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+.one img{
+    width: 100%;
+    height: 460px;
+}
+.left,.right{
+    width: 64px;
+    height: 100px;
+    background: rgba(105,101,101,0.3);
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+}
+.left,.right:hover{
+    cursor: pointer;
+}
+.left{
+    left: 0px;
+    top: 41%;
+}
+.right{
+    top: 41%;
+    right: 0;
+}
+.left:hover{
+    background: rgba(105,101,101,1);
+}
+.right:hover{
+    background: rgba(105,101,101,1);
+}
+.circle{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 90%;
+    right: 12%;
+}
+.circle li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(105,101,101,1);
+    float: left;
+    margin-left: 5px;
+}
+.circle .active{
+    background:rgb(238, 173, 205);
+}
+.span{
+    width: 1226px;
+    height: 170px;
+    margin: 0 auto;
+    margin-top: 120px; 
+}
+.span1{
+    width: 234px;
+    height: 100%;
+    float: left;
+}
+.span1 ul{
+    margin: 0 auto;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+    background: #5f5750;
+    width: 234px;
+    height: 170px;
+}
+.span1 ul li{
+    position: relative;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+    border: 1px solid #665e57;
+    display: list-item;
+}
+.span1 ul li a img{
+    width: 24px;
+    height: 24px;
+    
+}
+.span1 ul li a{
+    line-height: 82px;
+    margin: 0 22px 4px;
+}
+.span1 ul li:hover{
+   background-color: #665e67;
+}
+.span1 ul li a span{
+    position: absolute;
+    top: 18px;
+    left: 14px;
+    color: #b0b0b0;
+}
+.span2,.span3,.span4{
+    width: 316px;
+    height: 170px;
+    float: left;
+    margin-left: 14px;
+}
+.span3,.span4{
+    margin-left: 15px;
+}
+.span2 img,.span3 img,.span4 img{
+    width: 100%;
+    height: 100%;
+}
+.sg{
+    width: 1226px;
+    height: 300px;
+    margin: auto;
+    margin-top: 30px;
+    position: relative;
+}
+.xs{
+    position: absolute;
+    top: -24px;
+    left: 10px;
+}
+.sg .left1,.sg .right1{
+    width: 20px;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+.sg .left1{
+    right: 40px;
+}
+.sg .left1:hover{
+    cursor: pointer;
+}
+.sg .right1:hover{
+    cursor: pointer;
+}
+.sg .ss{
+    width: 982px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+}
+.sg .s1{
+    width: 234px;
+    height: 100%;
+    
+    float: left;
+}
+.sg .s2{
+    width: 982px;
+    height: 100%;
+    
+    float: left;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.sg .s3{
+    width: 982px;
+    height: 100%;
+    
+    float: left;
+    position: absolute;
+    right: 982px;
+    top: 0;
+    
+}
+
+.sg .s2 div{
+    width: 24%;
+    height: 100%;
+    
+    float: left;
+    margin-left: 1%;
+    
+}
+.sg .s3 div{
+    width: 24%;
+    height: 100%;
+    
+    float: left;
+    margin-left: 1%;
+    
+}
+.sg img{
+    width: 100%;
+    height: 100%;
+}
+
+.note9{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.note9 img{
+    width: 100%;
+    height: 100%;
+}
+.shouji{
+    width: 1226px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+}
+.shouji h2{
+    display: block;
+}
+.shouji .ss1{
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+.shouji .ss1 .col{
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+    margin-left: 8px;
+    border-radius: 16px;
+    font-size: 12px;
+    line-height: 12px;
+    background: #b0b0b0;
+    color: #fff;
+    vertical-align: 1px;
+}
+.shouji .ss1 a{
+    color: #757575;
+}
+.shouji .ss1 a:hover{
+    color: #ff6700;
+}

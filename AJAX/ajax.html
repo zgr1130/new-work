@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery.min.js"></script>
+    <style>
+        td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<table style="border: 1px solid black">
+    <tr>
+        <td>zhanghao</td>
+        <td>password</td>
+    </tr>
+</table>
+    <button>点击</button>
+</body>
+</html>
+<script>
+    $("button").click(function () {
+        $.ajax({
+            type:"post",
+            url:"../AJAX/admin/check.php",
+            data:{
+                "zhanghao":"111111",
+                "password":"111111"
+            },
+            dataType:"json",
+            success:function (res) {
+                for (let i=0;i<res.length;i++){
+                    $("table").append("<tr>"+"<td>"+res[i][1]+"</td>"+"<td>"+res[i][2]+"</td>"+"</tr>")
+                }
+            }
+        })
+    })
+</script>
